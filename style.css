@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.time-container{
+    padding:20px;
+    font-size: 60px;
+    margin:10px;
+    background-color: rgba(0, 0, 0, 0.725);
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://wallpaperswide.com/download/amazing_nature-wallpaper-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.digital-clock{
+    display:flex;
+}
+.text{
+    font-size: 16px;
+    text-align: center;
+}
